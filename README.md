@@ -1,0 +1,52 @@
+# toy_problems_week3_codechallenge
+# Toy Problems Week 3: Code Challenge
+
+This repository contains solutions and test cases for the Week 3 toy problems as part of the Phase 3 coding challenges.
+
+## Challenge 1: Converting 12-hour time to 24-hour time
+
+Given an hour (in the range of 1 to 12), a minute (in the range of 0 to 59), and a period ("am" or "pm"), the task is to convert the 12-hour time format to the 24-hour time format.
+
+### Solution
+
+The solution for this challenge can be found in the `solution.py` file. The function `convert_to_24_hour(hour, minute, period)` takes three inputs and returns a four-digit string representing the time in the 24-hour format.
+
+### Test Cases
+
+The test cases for this challenge are defined in the `test_solution.py` file. They ensure that the `convert_to_24_hour` function works as expected.
+
+## Challenge 2: Two numbers are positive
+
+Given three integers, the task is to determine whether exactly two of them are positive numbers.
+
+### Solution
+
+The solution for this challenge can be found in the `solution.py` file. The function `two_positive(a, b, c)` takes three integers as inputs and returns `True` if exactly two of them are positive.
+
+### Test Cases
+
+The test cases for this challenge are defined in the `test_solution.py` file. They validate the correctness of the `two_positive` function.
+
+## Challenge 3: Consonant value
+
+Given a lowercase string containing only alphabetic characters (no spaces), the task is to find the highest value of consonant substrings based on their assigned values.
+
+### Solution
+
+The solution for this challenge can be found in the `solution.py` file. The function `solve(word)` takes a string as input and returns the highest value of consonant substrings.
+
+### Test Cases
+
+The test cases for this challenge are defined in the `test_solution.py` file. They ensure that the `solve` function produces the expected results.
+
+## How to Run
+
+1. Clone this repository to your local machine.
+2. Navigate to the repository directory using the terminal.
+3. Install the required dependencies (if not already installed):
+4. Run the test cases using pytest:
+
+
+Feel free to explore the code, run the tests, and modify the solutions as needed. Happy coding!
+
+
