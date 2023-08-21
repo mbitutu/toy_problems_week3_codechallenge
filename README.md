@@ -18,15 +18,17 @@ The `solve` function takes a lowercase string with alphabetic characters and cal
 
 1. Clone this repository to your local machine.
       
-   git clone <>
+git clone <git@github.com:mbitutu/toy_problems_week3_codechallenge.git>
 
-2. Ensure you have Python 3 installed.
+2. cd toy_problems_week3_codechallenge
+   
 
-3. Navigate to the repository's directory in your terminal.
+3. Ensure you have Python 3 installed.
 
-4. To test each challenge, create a separate Python script (e.g., `test_convert_to_24_hour.py`, `test_two_positive.py`, `test_solve.py`) that imports the respective function from `solution.py`, calls the function with specific arguments, and prints the result.
+4. Navigate to the repository's directory in your terminal.
 
-   ```python
+5. To test each challenge, create a separate Python script ( `test_convert_to_24_hour.py`, `test_two_positive.py`, `test_solve.py`) that imports the respective function from `solution.py`, calls the function with specific arguments, and prints the result.
+
    from solution import convert_to_24_hour
 
    hour = 8
@@ -45,4 +47,8 @@ Repository Structure
 
     solution.py: Contains the solutions to the code challenges.
     test_convert_to_24_hour.py, test_two_positive.py, test_solve.py: Test scripts for each challenge.
+
+ 
+ This README provides a comprehensive guide to the challenges, explains how to run the code, and includes details about the repository's structure.
+    
 
